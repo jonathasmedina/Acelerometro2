@@ -66,7 +66,7 @@ public class MainActivity extends Activity implements SensorEventListener {
          Se o valor de Y for negativo então ta de cabeça pra baixo, então quanto menor y mais ele ta inclinando pra ir pra baixo
         Se o valor de Z for 0 então o dispositivo esta reto na horizontal.
         Quanto maioro o valor de Z Mais ele esta inclinado para frente
-        Quanto menor o valor de Z Mais ele esta inclinado para traz.
+        Quanto menor o valor de Z Mais ele esta inclinado para trás.
         */
         textViewX.setText("Posição X: " + x.intValue() + " Float: " + x);
         textViewY.setText("Posição Y: " + y.intValue() + " Float: " + y);
